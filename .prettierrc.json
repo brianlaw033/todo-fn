@@ -1,0 +1,31 @@
+{
+  "useTabs": false,
+  "tabWidth": 4,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "semi": false,
+  "bracketSpacing": true,
+  "printWidth": 140,
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.yaml", "*.yml"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
